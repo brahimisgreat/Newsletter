@@ -1,14 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh
+}
 .container{
     display: flex;
+    background-color: white;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 25px;
+    gap: 6px;
+    
 
 }
 .kidtainer{
     width: 400px;
     height: 593px;
-    border: solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .kidtainer h1{
     font-size: 3.3rem;
@@ -17,6 +29,8 @@
 ul{
     list-style-type: none;
     font-size: 1.1rem;
+    position: relative;
+    right: 11px;
 }
 svg{
     margin-right: 10px;
@@ -24,5 +38,23 @@ svg{
 form{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+}
+input{
+    width: 19rem;
+    height: 2rem;
+    border: solid grey 1px;
+    border-radius:8px ;
+    padding: 8px;
+    
+}
+button{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
 }
