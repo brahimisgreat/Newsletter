@@ -1,0 +1,17 @@
+.container{
+    background-color: white;
+    padding: 40px;
+    border-radius: 5%;
+    
+}
+.container h1{
+    font-size: 3.5rem;
+    line-height:45px
+}
+.container p{
+    line-height: 1.47rem;
+    font-size: 1.125rem;
+}
+.container button{
+    width: 100%;
+}
