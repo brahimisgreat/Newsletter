@@ -6,12 +6,9 @@ import{Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Routes>
-      <Route path='/' element={<Main />} />
-      <Route path='/success' element={<Succes />} />
-    </Routes>
+      <Main />
     </div>
-  );
+  ); 
 }
 
 export default App;

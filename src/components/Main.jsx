@@ -10,6 +10,7 @@ function Main() {
 
   function handleSubmit (e) {
     e.preventDefault();
+    console.log(email)
   }
 
   
@@ -31,7 +32,8 @@ function Main() {
       </div>
       <img src={pic} />
     </div>
-  );
+   
+  )
 }
 
 export default Main;
